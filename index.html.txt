@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>StreamEast - Watch NFL, MLB, NBA, UFC and Football Streams 2024</title>
+  <meta name="description" content="StreamEast is a free sports streaming place, providing millions of viewers nationwide to watch soccer, nfl, boxing matches in HD quality. Watch Now!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="StreamEast - Watch NFL, MLB, NBA, UFC and Football Streams 2024">
+  <meta property="og:description" content="StreamEast is a free sports streaming place, providing millions of viewers nationwide to watch soccer, nfl, boxing matches in HD quality. Watch Now!">
+  <meta property="og:url" content="https://streameast-0.pages.dev/">
+  <meta property="og:site_name" content="streameast">
+  <meta property="article:modified_time" content="2024-06-22T06:10:25+00:00">
+  <meta name="google-site-verification" content="6rZuHkBfwqdiFBdrWHUen2Ec3KAyVvM78GHjrMyjtZ4">
+  <link rel="canonical" href="https://streameast-0.pages.dev/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header></header>
+  <section>
+    <p id="button">StreamEast Homepage</p>
+  </section>
+
+  <article>
+    <!-- Your article content here -->
+  </article>
+
+  <footer></footer>
+
+  <script>
+    // Set the homepage URL here
+    let homepageUrl = "https://reddit.bestreamsports.lol/";
+    document.getElementById("button").addEventListener("click", function() {
+      window.open(homepageUrl, "_blank");
+    });
+  </script>
+</body>
+</html>

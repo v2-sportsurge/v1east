@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/Quicksand-Medium.woff2) format('woff2');
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  font-family:'Quicksand';
+}
+
+header {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
+  background: #0f0f0f;
+  border-bottom: 1px solid #000;
+  height: 70px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin: 70px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 20px;
+  max-width: 1100px;
+}
+
+section > p {
+  padding: 20px 40px;
+  min-width: 350px;
+  box-shadow: 1px 1px 12px 4px #9f8931;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 35px;
+  text-align: center;
+  background: #ffcd00;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+
+section > p:hover {
+  background: #fff;
+}
+
+section span {
+  text-align: center;
+  color: #a1a1a1;
+  font-weight: bold;
+  font-style: italic;
+}
+
+section h2 {
+  color: #fff;
+  font-size: large;
+}
+
+article {
+  margin: auto;
+  max-width: 1100px;
+  color: #fff;
+  padding: 20px;
+  border: 1px dashed #fc0;
+}
+
+article h2 {
+  padding-left: 10px;
+  border-left: solid 3px #fc0;
+}
+
+h1 {
+  text-align: center;
+  color: #ffcd00;
+}
+
+footer {
+  color: #bfbfbf;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 50px;
+  border-top: solid 1px #282828;
+  background: #000;
+  align-items: flex-end;
+}
+
+article img {
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  display: flex;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+td {
+  border: solid 1px #565656;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Hides elements with the class post-icons */
+.post-icons {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    align-items: center;
+    text-align: center;
+  }
+}
